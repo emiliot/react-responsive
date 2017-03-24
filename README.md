@@ -1,8 +1,8 @@
-# Mahisoft mentorship project
+# Mahisoft mentorship project Phase 2
 
 ## Goal
 
-The main goal of this workshop is to create a base project for modern web applications, and learn cool and cutting edge technologies in the process.
+The main goal of this workshop is to create a responsive web application using React.
 
 ## Technologies
 
