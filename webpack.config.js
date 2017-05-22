@@ -63,6 +63,12 @@ module.exports = {
         loader: 'sass-loader'
       }],
       include: [path.join(__dirname, 'src')]
+    }, {
+      test: /\.(woff2?|svg)$/,
+      loader: 'url-loader?limit=10000'
+    }, {
+      test: /\.(ttf|eot)$/,
+      loader: 'file-loader'
     }]
   }
 };
