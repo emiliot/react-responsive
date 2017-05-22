@@ -6,7 +6,7 @@ import Styles from './styles.scss';
 const cx = classNames.bind(Styles)
 
 const Home = () => (
-  <div className={cx('app-base')}>
+  <div className={cx('jumbotron')}>
     <h1>Hello, there</h1>
     <Link to='/hello'> Go to Hello </Link>
   </div>
